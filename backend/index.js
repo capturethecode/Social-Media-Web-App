@@ -14,7 +14,7 @@ dotenv.config()
 
 const port=process.env.PORT || 5000
 app.use(cors({
-    origin:"https://social-media-web-app-backend-wtdi.onrender.com",
+    origin:"https://social-media-web-app-frontend.onrender.com",
     credentials:true
 }))
 app.use(express.json())
